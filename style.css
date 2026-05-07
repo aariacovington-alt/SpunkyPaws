@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pet {
+    background-image: url("dak.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+
+
+
+.logo {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.top-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.top-buttons button {
+    background-color: #00cfff;
+    border: none;
+    padding: 12px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.menu {
+    background-color: #ffe192;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu button {
+    background-color: #00cfff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+body {
+    background-color: #e6c97a;
+    font-family: Arial;
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+}
+
+.about, .extra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.about img, .extra img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.title {
+    padding: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f9a825;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.image-box img {
+    width: 350px;
+    border: 4px solid #7b4cff;
+    border-radius: 4px;
+}
+
+.right {
+    width: 350px;
+}
+
+.right h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.form-card {
+    background-color: #0c3b2e;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.form-card h3 {
+    margin-top: 0;
+    color: #f6c65b;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 70px;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f6c65b;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 8px;
+    opacity: 0.7;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bottom h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.bottom p {
+    font-size: 16px;
+}
